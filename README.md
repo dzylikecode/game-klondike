@@ -6,6 +6,23 @@
 
 ## timeline
 
+### 2025-04-24 00:16:35
+
+尺寸设计：
+
+![size](docs/size.excalidraw.svg)
+
+### 2025-04-24 00:14:47
+
+debug 会打印出调试信息，会显示尺寸
+
+```dart
+class Stock extends PositionComponent {
+  @override
+  bool get debugMode => true;
+}
+```
+
 ### 2025-04-21 02:39:11
 
 动画效果: 
@@ -17,4 +34,4 @@
 
 游戏设计:
 
-![alt text](docs/design.excalidraw.svg)
+![design](docs/design.excalidraw.svg)
