@@ -42,10 +42,25 @@ class Suit {
 }
 ```
 
-
 从sprite的区域中截取出需要的部分：[spritecow](http://www.spritecow.com/)
 
+component 的渲染采用的是局部坐标系，不需要考虑世界位置。
 
+对齐方式：
+
+```dart
+flameSprite.render(canvas, position: size / 2, anchor: Anchor.center);
+```
+
+也就是 sprite 这个矩阵的中心和坐标 size/2 对齐
+
+背面设计：
+
+![back](docs/back.excalidraw.svg)
+
+正面设计:
+
+- 11: jack, 12: queen, 13: king
 
 ### 2025-04-24 00:16:35
 
