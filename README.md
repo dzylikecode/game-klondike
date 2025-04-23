@@ -62,6 +62,8 @@ flameSprite.render(canvas, position: size / 2, anchor: Anchor.center);
 
 - 11: jack, 12: queen, 13: king
 
+![front](docs/front.excalidraw.svg)
+
 ### 2025-04-24 00:16:35
 
 卡牌尺寸：
