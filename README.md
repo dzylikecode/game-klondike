@@ -12,6 +12,12 @@
 
 ![size](docs/size.excalidraw.svg)
 
+anchor:
+
+比如 Anchor.topCenter. 以这个方位作为不动点缩放
+
+> The reason for such choice for the viewfinder’s position and anchor is because of how we want it to respond if the game size becomes too wide or too tall: in case of too wide we want it to be centered on the screen, but if the screen is too tall, we want the content to be aligned at the top.
+
 ### 2025-04-24 00:14:47
 
 debug 会打印出调试信息，会显示尺寸
